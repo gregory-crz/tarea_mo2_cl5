@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 5</title>
+</head>
+<body>
+    <h1>clase 5</h1>
+    <script>
+
+
+
+        //1. Creá la Función printReverse que tome un Arreglo como Argumento y
+    //que imprima en la consola cada elemento en orden inverso (no tenés que
+    //invertir el Arreglo).
+ 
+    let arreglo = [1,2,3,4,5]
+
+    function printReverse(lista){
+    for(let i= lista.length - 1; i>=0 ; i--){
+        console.log(lista[i])
+        }
+    }
+
+    //2. Creá la Función reverser que tome un Arreglo como Argumento y devuelva
+    //uno nuevo invertido.
+    let arreglos = [1,2,3,4,5] 
+
+    function reverser(lista){
+        let clonar = lista.slice()
+        let retorno = []
+        while(clonar.length > 0){
+            let elemento = clonar.pop()
+            retorno.push(elemento)
+        }        
+    
+        } return retorno;
+       
+    
+    </script>
+</body>
+</html>
